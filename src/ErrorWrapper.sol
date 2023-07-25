@@ -10,6 +10,7 @@ pragma solidity ^0.8.13;
 
 */
 
+/// @author dapphub/dmap contributors
 /// @title ErrorWrapper
 contract ErrorWrapper {
 
