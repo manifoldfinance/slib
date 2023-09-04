@@ -1,0 +1,31 @@
+{
+  "name": "slib",
+  "version": "0.0.0",
+  "description": "Solidity Standard Library",
+  "files": [
+    "/dist/**/*",
+    "/contracts",
+    "/contracts/base",
+    "/contracts/interfaces",
+    "/contracts/libraries",
+    "/artifacts/contracts/**/*.json",
+    "!artifacts/contracts/**/*.dbg.json",
+    "!artifacts/contracts/test/**/*",
+    "!artifacts/contracts/base/**/*"
+  ],
+  "directories": {
+    "test": "tests",
+    "src": "contracts"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum",
+    "smart contracts",
+    "defi"
+  ],
+  "author": "SEE CONTRIBUTORS",
+  "license": "SEE LICENSE IN LICENSE"
+}
